@@ -153,7 +153,7 @@ This seamless acceleration allows data scientists to focus on genomics workflows
 ## Conclusion And Resources
 Duration: 2
 
-The integration of NVIDIA's cuML and cuDF libraries into Snowflake ML offers a powerful solution for accelerating large-scale machine learning workflows. By abstracting away the complexities of GPU infrastructure management, Snowflake enables data scientists to significantly boost performance for popular libraries like pandas and scikit-learn with no code changes. This enhancement dramatically speeds up iterative development in computationally demanding fields like topic modeling and genomics.
+The integration of NVIDIA's cuML and cuDF libraries into Snowflake ML offers a powerful solution for accelerating large-scale machine learning workflows. By abstracting away the complexities of GPU infrastructure management, Snowflake enables data scientists to significantly boost performance for popular libraries like pandas and scikit-learn with no code changes. This enhancement dramatically speeds up iterative development in computationally demanding fields like topic modeling and genomics from hours to literally minutes.
 
 ### What You Learned
 - How to configure a Snowflake Notebook for GPU-accelerated workloads.
