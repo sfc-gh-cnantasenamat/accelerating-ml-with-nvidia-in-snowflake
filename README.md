@@ -47,8 +47,8 @@ Duration: 5
 ### Retrieving demo notebooks
 
 The demo notebooks for the two use cases can be obtained by downloading the `.ipynb` files and uploading them to your Snowflake environment as will be explained.
--   **Topic Modeling Notebook:** You can download the [xxxxxxxx.ipynb](#) notebook for the topic modeling use case.
--   **Genomics Classification Notebook:** You can download the [xxxxxxxx.ipynb](#) notebook for the genomics classification use case.
+-   **Topic Modeling Notebook:** You can download the [topic-modeling.ipynb](#) notebook for the topic modeling use case.
+-   **Genomics Classification Notebook:** You can download the [human-genome-ml.ipynb](#) notebook for the genomics classification use case.
 
 
 ### Accessing a GPU Environment
