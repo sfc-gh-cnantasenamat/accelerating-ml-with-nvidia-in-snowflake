@@ -49,9 +49,7 @@ To get started, you need to configure your Snowflake Notebook to run on a contai
 2.  In the "Create notebook" dialog, select **Run on container**. This option is best for AI/ML workloads and provides access to CPUs/GPUs.
 3.  From the **Compute pool** dropdown, select a GPU-enabled instance appropriate for your workload. You can choose from various nodes that offer one or more GPUs.
 
-![](https://raw.githubusercontent.com/Snowflake-Labs/sfguide-getting-started-with-cortex/main/images/placeholder.png)
-
-**Figure 1.** Creating a Notebook with a GPU-enabled container runtime.
+![](assets/run-on-container.gif)
 
 ### Enabling GPU Acceleration Libraries
 With the latest update to the Snowflake ML Container Runtime, cuML and cuDF are fully integrated into the default GPU environment. To activate their drop-in acceleration capabilities for pandas, scikit-learn, UMAP, and HDBSCAN, you only need to import them and run their respective `install()` functions at the beginning of your notebook.
