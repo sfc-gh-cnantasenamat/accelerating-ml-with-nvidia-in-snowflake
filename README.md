@@ -13,6 +13,12 @@ Duration: 5
 
 As datasets continue to grow, GPU acceleration has become critical for machine learning workflows to avoid long wait times that can reduce productivity and increase costs. To address this, Snowflake ML has integrated NVIDIA’s cuML and cuDF libraries to provide significant performance boosts for popular ML algorithms. These libraries are part of the NVIDIA CUDA-X Data Science ecosystem, an open-source suite of GPU-accelerated tools designed to speed up data processing pipelines.
 
+Snowflake ML is an integrated set of tools and services that enables end-to-end machine learning workflows directly within the Snowflake Data Cloud. It allows data scientists and developers to build, train, and deploy ML models at scale without moving data out of their governed environment. With features like the Snowflake Feature Store, Model Registry, and ML Observability, it streamlines the entire ML lifecycle—from data preparation and feature engineering to model deployment and monitoring—all while leveraging Snowflake's performance, scalability, and security.
+
+![](assets/snowflake-ml-overview.png)
+
+NVIDIA CUDA-X is a collection of libraries, tools, and technologies built on the CUDA parallel computing platform. It is designed to accelerate applications across a wide range of domains, including high-performance computing (HPC), data science, and artificial intelligence. The CUDA-X libraries provide highly optimized, GPU-accelerated implementations for various workloads, such as linear algebra (cuBLAS), deep learning primitives (cuDNN), and data processing (RAPIDS). By offering a comprehensive ecosystem of accelerated libraries, CUDA-X makes it easier for developers to harness the power of NVIDIA GPUs for their applications.
+
 ![](assets/cuda-diagram-data-science-and-ai-application-stack.png)
 
 This guide will walk you through how to leverage this native integration in Snowflake. You will learn how to accelerate model development cycles for libraries like scikit-learn and pandas with no code changes required, turning processing times from hours into minutes. We will explore two practical examples—topic modeling and genomics—to demonstrate how these integrated libraries make it fast and seamless to work with large datasets in Snowflake ML.
