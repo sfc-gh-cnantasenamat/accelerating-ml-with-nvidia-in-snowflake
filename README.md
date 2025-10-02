@@ -113,6 +113,8 @@ With just two initial lines of code, the entire topic modeling pipeline is accel
 
 You can proceed to the remainder of the [topic modeling notebook](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/blob/main/Accelerating_ML_with_NVIDIA_in_Snowflake/topic-modeling.ipynb).
 
+![](assets/topic-modeling-screenshot.png)
+
 ## Use Case 2: Accelerating Complex Genomics Workflows
 Duration: 8
 
@@ -152,6 +154,8 @@ clf.fit(X_train, y_train, eval_set=[(X_test, y_test)])
 This seamless acceleration allows data scientists to focus on genomics workflows and model design instead of rewriting code for GPUs.
 
 You can proceed to the remainder of the [human genome ML notebook](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/blob/main/Accelerating_ML_with_NVIDIA_in_Snowflake/human-genome-ml.ipynb).
+
+![](assets/human-genome-ml-screenshot.png)
 
 ## Conclusion And Resources
 Duration: 2
