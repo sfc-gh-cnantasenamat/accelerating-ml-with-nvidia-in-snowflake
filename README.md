@@ -166,6 +166,6 @@ Articles:
 - [NVIDIA CUDA-X Data Science Libraries](https://developer.nvidia.com/cuda-x/data-science)
 
 Documentation:
-- [Snowflake ML Documentation](https://docs.snowflake.com/en/developer-guide/ml-powered-analysis/snowflake-ml)
+- [Snowflake ML Documentation](https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview)
 - [NVIDIA cuML Documentation](https://docs.rapids.ai/api/cuml/stable/)
 - [NVIDIA cuDF Documentation](https://docs.rapids.ai/api/cudf/stable/)
