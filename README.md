@@ -47,8 +47,8 @@ Duration: 5
 ### Retrieving demo notebooks
 
 The demo notebooks for the two use cases can be obtained by downloading the `.ipynb` files and uploading them to your Snowflake environment as will be explained.
--   **Topic Modeling Notebook:** You can download the [topic-modeling.ipynb](topic-modeling.ipynb) notebook for the topic modeling use case.
--   **Genomics Classification Notebook:** You can download the [human-genome-ml.ipynb](topic-modeling.ipynb) notebook for the genomics classification use case.
+-   **Topic Modeling Notebook:** You can download the [topic-modeling.ipynb](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/blob/main/Accelerating_ML_with_NVIDIA_in_Snowflake/topic-modeling.ipynb) notebook for the topic modeling use case.
+-   **Genomics Classification Notebook:** You can download the [human-genome-ml.ipynb](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/blob/main/Accelerating_ML_with_NVIDIA_in_Snowflake/human-genome-ml.ipynb) notebook for the genomics classification use case.
 
 ### Accessing a GPU Environment
 To get started, you need to configure your Snowflake Notebook to run on a container with access to GPU instances. The integration with NVIDIA’s libraries is available through the Container Runtime, a pre-built environment for machine learning development.
