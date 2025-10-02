@@ -169,6 +169,10 @@ The integration of NVIDIA's cuML and cuDF libraries into Snowflake ML offers a p
 
 ### Related Resources
 
+Jupyter Notebooks:
+- [topic-modeling.ipynb](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/blob/main/Accelerating_ML_with_NVIDIA_in_Snowflake/topic-modeling.ipynb)
+- [human-genome-ml.ipynb](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/blob/main/Accelerating_ML_with_NVIDIA_in_Snowflake/human-genome-ml.ipynb)
+
 Articles:
 - [NVIDIA CUDA-X Data Science Libraries](https://developer.nvidia.com/topics/ai/data-science/cuda-x-data-science-libraries)
 
