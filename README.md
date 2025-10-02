@@ -13,7 +13,7 @@ Duration: 5
 
 As datasets continue to grow, GPU acceleration has become critical for machine learning workflows to avoid long wait times that can reduce productivity and increase costs. To address this, Snowflake ML has integrated NVIDIA’s cuML and cuDF libraries to provide significant performance boosts for popular ML algorithms. These libraries are part of the NVIDIA CUDA-X Data Science ecosystem, an open-source suite of GPU-accelerated tools designed to speed up data processing pipelines.
 
-Snowflake ML is an integrated set of tools and services that enables end-to-end machine learning workflows directly within the Snowflake Data Cloud. It allows data scientists and developers to build, train, and deploy ML models at scale without moving data out of their governed environment. With features like the Snowflake Feature Store, Model Registry, and ML Observability, it streamlines the entire ML lifecycle—from data preparation and feature engineering to model deployment and monitoring—all while leveraging Snowflake's performance, scalability, and security.
+Snowflake ML is an integrated set of tools and services that enables end-to-end machine learning workflows directly within the Snowflake Data Cloud. It allows data scientists and developers to build, train, and deploy ML models at scale without moving data out of their governed environment. With features like the Snowflake Feature Store, Model Registry, and ML Observability, it streamlines the entire ML lifecycle—from data preparation and feature engineering to model deployment and monitoring, all while leveraging Snowflake's performance, scalability, and security.
 
 ![](assets/snowflake-ml-overview.png)
 
