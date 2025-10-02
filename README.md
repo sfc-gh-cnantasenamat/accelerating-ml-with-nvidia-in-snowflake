@@ -163,7 +163,6 @@ The integration of NVIDIA's cuML and cuDF libraries into Snowflake ML offers a p
 ### Related Resources
 
 Articles:
-- [Quick Start Notebook: Accelerating your ML workflows on GPUs](https://www.snowflake.com/blog/accelerating-ml-workflows-gpus/)
 - [NVIDIA CUDA-X Data Science Libraries](https://developer.nvidia.com/cuda-x/data-science)
 
 Documentation:
