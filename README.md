@@ -130,9 +130,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
 
-# ... assume X_train, X_test, y_train, y_test are defined ...
+X_train, X_test, y_train, y_test = train_test_split(
+dna_embeddings,
+y,
+test_size = 0.20,
+random_state=42
+)
 
-# This scikit-learn model training is now GPU-accelerated by cuML
 classifier = RandomForestClassifier(
     n_estimators=200,
     max_depth=20,
@@ -141,7 +145,6 @@ classifier = RandomForestClassifier(
 )
 classifier.fit(X_train, y_train)
 
-# This XGBoost model is configured to run on the GPU
 clf = xgb.XGBClassifier(device="cuda", n_estimators=200)
 clf.fit(X_train, y_train, eval_set=[(X_test, y_test)])
 ```
